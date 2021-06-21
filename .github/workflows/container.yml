@@ -7,7 +7,7 @@ on:
     paths:
       - 'container/**'
 
-default:
+defaults:
   run:
     working-directory: container
 
