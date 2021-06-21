@@ -13,7 +13,7 @@ defaults:
 
 jobs:
   build:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     
     steps:
       - uses: actions/checkout@v2
