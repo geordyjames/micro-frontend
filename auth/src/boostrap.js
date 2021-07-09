@@ -28,7 +28,7 @@ export const mount = (el, { onNavigate, defaultHistory, initialPath }) => {
 };
 
 if (process.env.NODE_ENV === 'development') {
-  const devRoot = document.querySelector('#_marketing_dev_root');
+  const devRoot = document.querySelector('#_auth-dev-root');
 
   if (devRoot) {
     mount(devRoot, {
